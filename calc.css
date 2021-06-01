@@ -1,0 +1,93 @@
+
+.wrapper{
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: red;
+    width: 40vw;
+    height: 50vh;
+}
+#display{
+    font-size: 3em;
+    display: flex;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 10vh;
+    min-height: 7vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.button, .numBtn, .opButton{
+    margin: 5px;
+}
+#buttonWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:10px;
+    height: 100%;
+    grid-template-areas:    
+        "clear clear backspace divide"
+        "btn7 btn8 btn9 btnMultiply"
+        "btn4 btn5 btn6 btnAdd"
+        "btn1 btn2 btn3 btnSubtract"
+        "btnDecimal btn0 btnEquals btnEquals";
+}
+#clear{
+    grid-area: clear;
+}
+#backspace{
+    grid-area: backspace;
+}
+#divide{
+    grid-area: divide;
+}
+#btn7{
+    grid-area: btn7;
+}
+#btn8{
+    grid-area: btn8;
+}
+#btn9{
+    grid-area: btn9;
+}
+#multiply{
+    grid-area: btnMultiply;
+}
+#btn4{
+    grid-area: btn4;
+}
+#btn5{
+    grid-area: btn5;
+}
+#btn6{
+    grid-area: btn6;
+}
+#add{
+    grid-area: btnAdd;
+}
+#btnEquals{
+    grid-area: btnEquals;
+}
+#btn1{
+    grid-area: btn1;
+}
+#btn2{
+    grid-area: btn2;
+}
+#btn3{
+    grid-area: btn3;
+}
+#btnSubtract{
+    grid-area: btnSubtract;
+}
+#btnDecimal{
+    grid-area: btnDecimal;
+}
+#btn0{
+    grid-area: btn0;
+}
